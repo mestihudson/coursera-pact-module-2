@@ -1,0 +1,20 @@
+{
+  "name": "pact-provider",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Payments provider service that returns transaction data",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand",
+    "verify:pact": "jest --runInBand test/transaction.verify.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^17.1.4",
+    "@pact-foundation/pact-cli": "^18.10.9",
+    "jest": "^30.5.2"
+  }
+}
