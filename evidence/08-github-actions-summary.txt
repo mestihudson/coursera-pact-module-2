@@ -19,6 +19,22 @@ Key output:
 - There are no missing dependencies
 - can-i-deploy --to-environment production: Computer says yes
 
+Provider CI - Positive re-run with current broker secrets
+Run: https://github.com/mestihudson/coursera-pact-module-2/actions/runs/41058886820
+Commit: 4868cd81872e424e1551c087c735e477aa6415fc
+Result: success
+
+Provider CI - Negative test (provider returns 500)
+Run: https://github.com/mestihudson/coursera-pact-module-2/actions/runs/41058994763
+Commit: f5e4c0a325695d1589b6ce92302fbc3975d268d3
+Result: failure
+Key output:
+- StatusMismatch: expected 200 but was 500
+- BodyMismatch: expected array of transactions, received error object
+- Process completed with exit code 1
+- Deploy gate skipped
+
 Logs:
 - evidence/06-github-actions-consumer.log
 - evidence/07-github-actions-provider.log
+- evidence/09-github-actions-provider-negative.log

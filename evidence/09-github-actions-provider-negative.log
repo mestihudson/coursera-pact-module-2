@@ -1,0 +1,250 @@
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9481129Z Current runner version: '2.338.2'
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9520338Z ##[group]Runner Image Provisioner
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9521849Z Hosted Compute Agent
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9523972Z Version: 20261021.618
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9525226Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9526803Z Build Date: 2026-10-21T00:45:21Z
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9528234Z Worker ID: {1b96226c-24ee-4abc-9c74-7c4103d09c95}
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9529686Z Region: eastus
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9530713Z Cloud: Azure
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9531959Z ##[endgroup]
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9535570Z ##[group]Operating System
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9536803Z Ubuntu
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9538108Z 24.04.5
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9539158Z LTS
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9540436Z ##[endgroup]
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9541473Z ##[group]Runner Image
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9543036Z Image: ubuntu-24.04
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9544244Z Version: 20261025.353.1
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9546329Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9549752Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9551851Z ##[endgroup]
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9554430Z ##[group]GITHUB_TOKEN Permissions
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9557595Z Contents: read
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9558759Z Metadata: read
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9560071Z Packages: read
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9561102Z ##[endgroup]
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9564854Z Secret source: Actions
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9566539Z Cache mode: write
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:10.9567907Z Prepare workflow directory
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:11.0182550Z Prepare all required actions
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:11.0257474Z Getting action download info
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:11.2064012Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:11.3089785Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Verify provider against consumer pacts	Set up job	2026-10-30T12:55:11.4958278Z Complete job name: Verify provider against consumer pacts
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5878529Z ##[group]Run actions/checkout@v4
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5879591Z with:
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5880143Z   repository: mestihudson/coursera-pact-module-2
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5884658Z   token: ***
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5885146Z   ssh-strict: true
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5885623Z   ssh-user: git
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5886106Z   persist-credentials: true
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5886631Z   clean: true
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5887110Z   sparse-checkout-cone-mode: true
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5887666Z   fetch-depth: 1
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5888127Z   fetch-tags: false
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5888595Z   show-progress: true
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5889081Z   lfs: false
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5889534Z   submodules: false
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5890016Z   set-safe-directory: true
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5890576Z   allow-unsafe-pr-checkout: false
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.5891528Z ##[endgroup]
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8467777Z Syncing repository: mestihudson/coursera-pact-module-2
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8470151Z ##[group]Getting Git version info
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8471330Z Working directory is '/home/runner/work/coursera-pact-module-2/coursera-pact-module-2'
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8473159Z [command]/usr/bin/git version
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8564987Z git version 2.56.0
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8594504Z ##[endgroup]
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8615251Z Temporarily overriding HOME='/home/runner/work/_temp/7b6c01bd-9de2-4a80-b999-c62c08f14157' before making global git config changes
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8617903Z Adding repository directory to the temporary git global config as a safe directory
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8620363Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/coursera-pact-module-2/coursera-pact-module-2
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8676179Z Deleting the contents of '/home/runner/work/coursera-pact-module-2/coursera-pact-module-2'
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8687299Z ##[group]Initializing the repository
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8715248Z [command]/usr/bin/git init /home/runner/work/coursera-pact-module-2/coursera-pact-module-2
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8806618Z hint: Using 'master' as the name for the initial branch. This default branch name
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8808470Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8811683Z hint: to use in all of your new repositories, which will suppress this warning,
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8813893Z hint: call:
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8814969Z hint:
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8816318Z hint: 	git config --global init.defaultBranch <name>
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8817300Z hint:
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8818580Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8820547Z hint: 'development'. The just-created branch can be renamed via this command:
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8821635Z hint:
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8822324Z hint: 	git branch -m <name>
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8823456Z hint:
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8824771Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8826984Z Initialized empty Git repository in /home/runner/work/coursera-pact-module-2/coursera-pact-module-2/.git/
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8830385Z [command]/usr/bin/git remote add origin https://github.com/mestihudson/coursera-pact-module-2
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8879366Z ##[endgroup]
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8880344Z ##[group]Disabling automatic garbage collection
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8884867Z [command]/usr/bin/git config --local gc.auto 0
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8922441Z ##[endgroup]
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8923773Z ##[group]Setting up auth
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.8931460Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.9016223Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.9501853Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.9555613Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.9836893Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:11.9892244Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.0173469Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.0230371Z ##[endgroup]
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.0231641Z ##[group]Fetching the repository
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.0248891Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +f5e4c0a325695d1589b6ce92302fbc3975d268d3:refs/remotes/origin/demo/negative-provider
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2454830Z From https://github.com/mestihudson/coursera-pact-module-2
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2457235Z  * [new ref]         f5e4c0a325695d1589b6ce92302fbc3975d268d3 -> origin/demo/negative-provider
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2461427Z ##[endgroup]
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2463450Z ##[group]Determining the checkout info
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2465463Z ##[endgroup]
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2471808Z [command]/usr/bin/git sparse-checkout disable
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2538249Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2581890Z ##[group]Checking out the ref
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2597316Z [command]/usr/bin/git checkout --progress --force -B demo/negative-provider refs/remotes/origin/demo/negative-provider
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2726594Z Switched to a new branch 'demo/negative-provider'
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2731431Z branch 'demo/negative-provider' set up to track 'origin/demo/negative-provider'.
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2739667Z ##[endgroup]
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2894321Z [command]/usr/bin/git log -1 --format=%H
+Verify provider against consumer pacts	Checkout	2026-10-30T12:55:12.2930395Z f5e4c0a325695d1589b6ce92302fbc3975d268d3
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.3255143Z ##[group]Run actions/setup-node@v4
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.3256086Z with:
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.3256566Z   node-version: 22
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.3257059Z   cache: npm
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.3257816Z   cache-dependency-path: provider/package-lock.json
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.3258521Z   always-auth: false
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.3259035Z   check-latest: false
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.3263419Z   token: ***
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.3263923Z ##[endgroup]
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.4833463Z (node:2320) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.4838360Z Found in cache @ /opt/hostedtoolcache/node/22.23.4/x64
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.4840680Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.4843835Z ##[group]Environment details
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.8989863Z node: v22.23.4
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.8991185Z npm: 10.9.9
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.8992358Z yarn: 1.22.22
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.8994868Z ##[endgroup]
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:12.9014110Z [command]/opt/hostedtoolcache/node/22.23.4/x64/bin/npm config get cache
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:13.0130687Z /home/runner/.npm
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:13.0978071Z Cache hit for: node-cache-Linux-x64-npm-a842abf7700d9993a25bf678be47db4b02e81a216dd61c1624d5fb37ac366b55
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:13.1131261Z (node:2320) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:13.4633518Z Received 40082730 of 40082730 (100.0%), 124.9 MBs/sec
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:13.4636837Z Cache Size: ~38 MB (40082730 B)
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:13.4814433Z [command]/usr/bin/tar -xf /home/runner/work/_temp/56e67099-248d-46e6-87bf-df65fdb44829/cache.tzst -P -C /home/runner/work/coursera-pact-module-2/coursera-pact-module-2 --use-compress-program unzstd
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:13.6348742Z Cache restored successfully
+Verify provider against consumer pacts	Setup Node.js	2026-10-30T12:55:13.6376587Z Cache restored from key: node-cache-Linux-x64-npm-a842abf7700d9993a25bf678be47db4b02e81a216dd61c1624d5fb37ac366b55
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:13.6621471Z ##[group]Run npm ci
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:13.6622708Z npm ci
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:13.6656248Z shell: /usr/bin/bash -e {0}
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:13.6657501Z ##[endgroup]
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:16.5271730Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7813261Z 
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7814206Z added 438 packages, and audited 439 packages in 5s
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7815113Z 
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7815526Z 89 packages are looking for funding
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7816145Z   run `npm fund` for details
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7990896Z 
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7991993Z 5 low severity vulnerabilities
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7993086Z 
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7993785Z To address issues that do not require attention, run:
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7994680Z   npm audit fix
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7995133Z 
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7995818Z To address all issues (including breaking changes), run:
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7996653Z   npm audit fix --force
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7997124Z 
+Verify provider against consumer pacts	Install dependencies	2026-10-30T12:55:18.7997536Z Run `npm audit` for details.
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8879544Z ##[group]Run npm run verify:pact
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8880142Z npm run verify:pact
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8908976Z shell: /usr/bin/bash -e {0}
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8909433Z env:
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8909766Z   CI: true
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8910804Z   PACT_BROKER_BASE_URL: ***
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8911310Z   PACT_BROKER_USERNAME: ***
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8911868Z   PACT_BROKER_PASSWORD: ***
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8912362Z   GIT_COMMIT: f5e4c0a325695d1589b6ce92302fbc3975d268d3
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8913152Z   GIT_BRANCH: demo/negative-provider
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.8913628Z ##[endgroup]
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.9991344Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.9992220Z > pact-provider@1.0.0 verify:pact
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.9993406Z > jest --runInBand test/transaction.verify.test.js
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:18.9994561Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:21.5840680Z (node:2437) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:21.5841661Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6509599Z 2026-10-30T12:55:22.650685Z  WARN ThreadId(06) pact_matching::metrics: 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6510196Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6510419Z Please note:
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6511874Z We are tracking events anonymously to gather important usage statistics like Pact version and operating system. To disable tracking, set the 'PACT_DO_NOT_TRACK' environment variable to 'true'.
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6513455Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6513480Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6816958Z The pact at ***/pacts/provider/PaymentsProvider/consumer/TransactionConsumer/pact-version/74a560bf3a80ec5574e9747fb5b92b595de62f1f is being verified because the pact content belongs to the consumer version matching the following criterion:
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6820066Z     * latest version from the main branch 'main' (2891e54c0a13d5db99fa542a32bc3d1b25b5a31c)
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6823129Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6844610Z Verifying a pact between TransactionConsumer and PaymentsProvider
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6853837Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6854488Z   a request for the transaction list (1s 577ms loading, 36ms verification)
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6855275Z      Given transactions exist
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6855800Z     returns a response which
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6856787Z       has status code 200 (FAILED)
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6857592Z       includes headers
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6858642Z         "Content-Type" with value "application/json" (OK)
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6859874Z       has a matching body (FAILED)
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6860487Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6860852Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6861079Z Failures:
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6861312Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6862431Z 1) Verifying a pact between TransactionConsumer and PaymentsProvider Given transactions exist - a request for the transaction list
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6863938Z     1.1) has a matching body
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6866021Z            $ -> Type mismatch: Expected {"error":"simulated contract break"} (Object) to be the same type as [{"amount":150.75,"createdAt":"2026-10-29T12:00:00Z","currency":"BRL","id":1,"status":"COMPLETED"}] (Array)
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6867724Z     -[
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6868093Z   {
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6868444Z     "amount": 150.75,
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6868926Z     "createdAt": "2026-10-29T12:00:00Z",
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6869448Z     "currency": "BRL",
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6869856Z     "id": 1,
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6870263Z     "status": "COMPLETED"
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6870684Z   }
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6871007Z ]
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6871440Z     +{
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6871924Z   "error": "simulated contract break"
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6872456Z }
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6873176Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6873607Z     1.2) has status code 200
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6874294Z            expected 200 but was 500
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6874686Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6874898Z There were 1 pact failures
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6875193Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6968613Z   console.log
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6970648Z     [12:55:22.682] ERROR (2437): pact-core@20.2.0: Verification unsuccessful
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6971414Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6971946Z       at Object.write (node_modules/@pact-foundation/pact-core/src/logger/pino.ts:17:17)
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.6972606Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7066894Z FAIL test/transaction.verify.test.js
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7069975Z   PaymentsProvider contract verification
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7073821Z     ✕ satisfies the TransactionConsumer pact (2733 ms)
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7074362Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7075153Z   ● PaymentsProvider contract verification › satisfies the TransactionConsumer pact
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7075876Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7103832Z     {"errors":[{"interaction":"Verifying a pact between TransactionConsumer and PaymentsProvider Given transactions exist - a request for the transaction list","mismatch":{"interactionId":"836b3e5fb6521e5b7708a2bbae0614b17df37a76","mismatches":[{"actual":"{\"error\":\"simulated contract break\"}","expected":"[{\"amount\":150.75,\"createdAt\":\"2026-10-29T12:00:00Z\",\"currency\":\"BRL\",\"id\":1,\"status\":\"COMPLETED\"}]","mismatch":"Type mismatch: Expected {\"error\":\"simulated contract break\"} (Object) to be the same type as [{\"amount\":150.75,\"createdAt\":\"2026-10-29T12:00:00Z\",\"currency\":\"BRL\",\"id\":1,\"status\":\"COMPLETED\"}] (Array)","path":"$","type":"BodyMismatch"},{"actual":500,"expected":200,"mismatch":"expected 200 but was 500","type":"StatusMismatch"}],"type":"mismatches"}}],"interactionResults":[{"consumer":"TransactionConsumer","description":"a request for the transaction list","duration":"36ms","interactionId":"836b3e5fb6521e5b7708a2bbae0614b17df37a76","mismatch":{"interactionId":"836b3e5fb6521e5b7708a2bbae0614b17df37a76","mismatches":[{"actual":"{\"error\":\"simulated contract break\"}","expected":"[{\"amount\":150.75,\"createdAt\":\"2026-10-29T12:00:00Z\",\"currency\":\"BRL\",\"id\":1,\"status\":\"COMPLETED\"}]","mismatch":"Type mismatch: Expected {\"error\":\"simulated contract break\"} (Object) to be the same type as [{\"amount\":150.75,\"createdAt\":\"2026-10-29T12:00:00Z\",\"currency\":\"BRL\",\"id\":1,\"status\":\"COMPLETED\"}] (Array)","path":"$","type":"BodyMismatch"},{"actual":500,"expected":200,"mismatch":"expected 200 but was 500","type":"StatusMismatch"}],"type":"mismatches"},"pending":false,"provider":"PaymentsProvider","providerStates":["transactions exist"],"result":"Error"}],"notices":[{"text":"The pact at ***/pacts/provider/PaymentsProvider/consumer/TransactionConsumer/pact-version/74a560bf3a80ec5574e9747fb5b92b595de62f1f is being verified because the pact content belongs to the consumer version matching the following criterion:\n    * latest version from the main branch 'main' (2891e54c0a13d5db99fa542a32bc3d1b25b5a31c)","when":"before_verification"}],"output":["The pact at ***/pacts/provider/PaymentsProvider/consumer/TransactionConsumer/pact-version/74a560bf3a80ec5574e9747fb5b92b595de62f1f is being verified because the pact content belongs to the consumer version matching the following criterion:\n    * latest version from the main branch 'main' (2891e54c0a13d5db99fa542a32bc3d1b25b5a31c)","\nVerifying a pact between \u001b[1mTransactionConsumer\u001b[0m and \u001b[1mPaymentsProvider\u001b[0m","","  a request for the transaction list (1s 577ms loading, 36ms verification)","     Given transactions exist","    returns a response which","      has status code \u001b[1m200\u001b[0m (\u001b[31mFAILED\u001b[0m)","      includes headers","        \"\u001b[1mContent-Type\u001b[0m\" with value \"\u001b[1mapplication/json\u001b[0m\" (\u001b[32mOK\u001b[0m)","      has a matching body (\u001b[31mFAILED\u001b[0m)","","\nFailures:\n","1) Verifying a pact between TransactionConsumer and PaymentsProvider Given transactions exist - a request for the transaction list","    1.1) has a matching body","           \u001b[1m$\u001b[0m -> Type mismatch: Expected {\"error\":\"simulated contract break\"} (Object) to be the same type as [{\"amount\":150.75,\"createdAt\":\"2026-10-29T12:00:00Z\",\"currency\":\"BRL\",\"id\":1,\"status\":\"COMPLETED\"}] (Array)","\u001b[31m    -[\n  {\n    \"amount\": 150.75,\n    \"createdAt\": \"2026-10-29T12:00:00Z\",\n    \"currency\": \"BRL\",\n    \"id\": 1,\n    \"status\": \"COMPLETED\"\n  }\n]\n\u001b[0m\u001b[32m    +{\n  \"error\": \"simulated contract break\"\n}\n\u001b[0m","    1.2) has status code 200","           expected \u001b[31m200\u001b[0m but was \u001b[32m500\u001b[0m","\nThere were 1 pact failures\n"],"pendingErrors":[],"result":false}
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7120177Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7120547Z       at node_modules/@pact-foundation/pact-core/src/verifier/nativeVerifier.ts:52:20
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7120911Z 
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7121099Z Test Suites: 1 failed, 1 total
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7121623Z Tests:       1 failed, 1 total
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7121908Z Snapshots:   0 total
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7122155Z Time:        3.501 s
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.7122537Z Ran all test suites matching test/transaction.verify.test.js.
+Verify provider against consumer pacts	Verify provider against the latest pacts	2026-10-30T12:55:22.8330062Z ##[error]Process completed with exit code 1.
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.8496724Z Post job cleanup.
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9374695Z [command]/usr/bin/git version
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9420594Z git version 2.56.0
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9467879Z Temporarily overriding HOME='/home/runner/work/_temp/3e13ede1-0922-4bfe-86ef-06813ce9b227' before making global git config changes
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9469704Z Adding repository directory to the temporary git global config as a safe directory
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9474208Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/coursera-pact-module-2/coursera-pact-module-2
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9520047Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9566916Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9839247Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9871499Z http.https://github.com/.extraheader
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9891371Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:22.9944744Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:23.0336671Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verify provider against consumer pacts	Post Checkout	2026-10-30T12:55:23.0394740Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verify provider against consumer pacts	Complete job	2026-10-30T12:55:23.0906378Z Cleaning up orphan processes
+Verify provider against consumer pacts	Complete job	2026-10-30T12:55:23.1279461Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
