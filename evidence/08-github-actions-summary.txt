@@ -34,6 +34,12 @@ Key output:
 - Process completed with exit code 1
 - Deploy gate skipped
 
+Pact Broker Webhook - contract_published -> repository_dispatch (pact-changed)
+Manual execution run: https://github.com/mestihudson/coursera-pact-module-2/actions/runs/41059603920
+Automatic run after consumer publish: https://github.com/mestihudson/coursera-pact-module-2/actions/runs/41059774718
+Result: success
+Event: repository_dispatch
+
 Logs:
 - evidence/06-github-actions-consumer.log
 - evidence/07-github-actions-provider.log
