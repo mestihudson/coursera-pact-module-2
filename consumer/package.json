@@ -1,0 +1,19 @@
+{
+  "name": "pact-consumer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Consumer service that fetches transactions from the payments provider",
+  "main": "src/transactionClient.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "publish:pact": "pact broker publish ./pacts --consumer-app-version=${GIT_COMMIT:-1.0.0} --branch=${GIT_BRANCH:-main} --broker-base-url=${PACT_BROKER_BASE_URL:-http://localhost:9292}"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@pact-foundation/pact": "^17.1.4",
+    "@pact-foundation/pact-cli": "^18.10.9",
+    "jest": "^30.5.2"
+  }
+}

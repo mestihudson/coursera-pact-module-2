@@ -1,0 +1,7 @@
+node_modules/
+consumer/pacts/
+*.log
+.DS_Store
+.gh_token
+.env
+.env.*
