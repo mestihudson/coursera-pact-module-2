@@ -1,0 +1,213 @@
+Test consumer and publish pact	Set up job	﻿2026-10-30T12:39:42.3486463Z Current runner version: '2.338.2'
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3509362Z ##[group]Runner Image Provisioner
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3510204Z Hosted Compute Agent
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3510782Z Version: 20261021.618
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3511359Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3512026Z Build Date: 2026-10-21T00:45:21Z
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3512697Z Worker ID: {1f0cf1e2-659b-438b-903c-ede6756d410e}
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3513354Z Region: westus3
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3513888Z Cloud: Azure
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3514449Z ##[endgroup]
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3516326Z ##[group]Operating System
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3517007Z Ubuntu
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3517557Z 24.04.5
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3518071Z LTS
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3518551Z ##[endgroup]
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3519120Z ##[group]Runner Image
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3519732Z Image: ubuntu-24.04
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3520270Z Version: 20261025.353.1
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3521266Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3522754Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3523676Z ##[endgroup]
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3525007Z ##[group]GITHUB_TOKEN Permissions
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3526861Z Contents: read
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3527516Z Metadata: read
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3528084Z Packages: read
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3528583Z ##[endgroup]
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3530532Z Secret source: Actions
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3531372Z Cache mode: write
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3532298Z Prepare workflow directory
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3873261Z Prepare all required actions
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.3913175Z Getting action download info
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.6871821Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Test consumer and publish pact	Set up job	2026-10-30T12:39:42.8041578Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Test consumer and publish pact	Set up job	2026-10-30T12:39:43.0240616Z Complete job name: Test consumer and publish pact
+Test consumer and publish pact	Checkout	﻿2026-10-30T12:39:43.0876233Z ##[group]Run actions/checkout@v4
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0876972Z with:
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0877412Z   repository: mestihudson/coursera-pact-module-2
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0880706Z   token: ***
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0881086Z   ssh-strict: true
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0881475Z   ssh-user: git
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0881861Z   persist-credentials: true
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0882276Z   clean: true
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0882678Z   sparse-checkout-cone-mode: true
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0883116Z   fetch-depth: 1
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0883484Z   fetch-tags: false
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0883875Z   show-progress: true
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0884271Z   lfs: false
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0884770Z   submodules: false
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0885177Z   set-safe-directory: true
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0885612Z   allow-unsafe-pr-checkout: false
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.0886332Z ##[endgroup]
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3232661Z Syncing repository: mestihudson/coursera-pact-module-2
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3235320Z ##[group]Getting Git version info
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3236196Z Working directory is '/home/runner/work/coursera-pact-module-2/coursera-pact-module-2'
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3237568Z [command]/usr/bin/git version
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3305762Z git version 2.56.0
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3324026Z ##[endgroup]
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3336479Z Temporarily overriding HOME='/home/runner/work/_temp/90627cda-48cc-4a4c-9248-2c44cf37809f' before making global git config changes
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3338865Z Adding repository directory to the temporary git global config as a safe directory
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3342316Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/coursera-pact-module-2/coursera-pact-module-2
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3440336Z Deleting the contents of '/home/runner/work/coursera-pact-module-2/coursera-pact-module-2'
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3450386Z ##[group]Initializing the repository
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3451711Z [command]/usr/bin/git init /home/runner/work/coursera-pact-module-2/coursera-pact-module-2
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3656805Z hint: Using 'master' as the name for the initial branch. This default branch name
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3658491Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3659474Z hint: to use in all of your new repositories, which will suppress this warning,
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3660444Z hint: call:
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3661081Z hint:
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3661864Z hint: 	git config --global init.defaultBranch <name>
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3662455Z hint:
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3663018Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3663840Z hint: 'development'. The just-created branch can be renamed via this command:
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3664751Z hint:
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3665361Z hint: 	git branch -m <name>
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3666049Z hint:
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3666958Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3668691Z Initialized empty Git repository in /home/runner/work/coursera-pact-module-2/coursera-pact-module-2/.git/
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3671622Z [command]/usr/bin/git remote add origin https://github.com/mestihudson/coursera-pact-module-2
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3737103Z ##[endgroup]
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3740415Z ##[group]Disabling automatic garbage collection
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3741452Z [command]/usr/bin/git config --local gc.auto 0
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3777259Z ##[endgroup]
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3778465Z ##[group]Setting up auth
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3783473Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.3825250Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.4217109Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.4259703Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.4496258Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.4538438Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.4752390Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.4798687Z ##[endgroup]
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.4799533Z ##[group]Fetching the repository
+Test consumer and publish pact	Checkout	2026-10-30T12:39:43.4810670Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +2891e54c0a13d5db99fa542a32bc3d1b25b5a31c:refs/remotes/origin/main
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1402339Z From https://github.com/mestihudson/coursera-pact-module-2
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1404426Z  * [new ref]         2891e54c0a13d5db99fa542a32bc3d1b25b5a31c -> origin/main
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1407991Z ##[endgroup]
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1409391Z ##[group]Determining the checkout info
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1410800Z ##[endgroup]
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1412110Z [command]/usr/bin/git sparse-checkout disable
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1468556Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1504421Z ##[group]Checking out the ref
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1514997Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1606645Z Switched to a new branch 'main'
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1610168Z branch 'main' set up to track 'origin/main'.
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1617106Z ##[endgroup]
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1665159Z [command]/usr/bin/git log -1 --format=%H
+Test consumer and publish pact	Checkout	2026-10-30T12:39:44.1695786Z 2891e54c0a13d5db99fa542a32bc3d1b25b5a31c
+Test consumer and publish pact	Setup Node.js	﻿2026-10-30T12:39:44.2038219Z ##[group]Run actions/setup-node@v4
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.2039353Z with:
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.2040115Z   node-version: 22
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.2040935Z   cache: npm
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.2042074Z   cache-dependency-path: consumer/package-lock.json
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.2043335Z   always-auth: false
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.2044187Z   check-latest: false
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.2052630Z   token: ***
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.2053422Z ##[endgroup]
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.3315226Z (node:2152) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.3318877Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.3322734Z Found in cache @ /opt/hostedtoolcache/node/22.23.4/x64
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.3324836Z ##[group]Environment details
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.6892819Z node: v22.23.4
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.6893244Z npm: 10.9.9
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.6893579Z yarn: 1.22.22
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.6894197Z ##[endgroup]
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.6908938Z [command]/opt/hostedtoolcache/node/22.23.4/x64/bin/npm config get cache
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:44.7803093Z /home/runner/.npm
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:45.0160244Z Cache hit for: node-cache-Linux-x64-npm-7df9414cc009348ff730219b59139fe47eda83ce4088c3fc139a6ba522a831b7
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:45.0281544Z (node:2152) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:46.2562279Z Received 35432895 of 39627199 (89.4%), 33.8 MBs/sec
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:46.2682467Z Received 39627199 of 39627199 (100.0%), 37.4 MBs/sec
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:46.2682998Z Cache Size: ~38 MB (39627199 B)
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:46.2703012Z [command]/usr/bin/tar -xf /home/runner/work/_temp/2566a972-1558-41f0-8864-77ff2ea52a16/cache.tzst -P -C /home/runner/work/coursera-pact-module-2/coursera-pact-module-2 --use-compress-program unzstd
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:46.3735491Z Cache restored successfully
+Test consumer and publish pact	Setup Node.js	2026-10-30T12:39:46.3756019Z Cache restored from key: node-cache-Linux-x64-npm-7df9414cc009348ff730219b59139fe47eda83ce4088c3fc139a6ba522a831b7
+Test consumer and publish pact	Install dependencies	﻿2026-10-30T12:39:46.3948629Z ##[group]Run npm ci
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:46.3948906Z ^[[36;1mnpm ci^[[0m
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:46.3976526Z shell: /usr/bin/bash -e {0}
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:46.3976802Z ##[endgroup]
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:48.4541591Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.8939989Z 
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.8941087Z added 406 packages, and audited 407 packages in 3s
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.8941352Z 
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.8941532Z 86 packages are looking for funding
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.8941817Z   run `npm fund` for details
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9072216Z 
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9072858Z 5 low severity vulnerabilities
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9073112Z 
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9073310Z To address issues that do not require attention, run:
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9073605Z   npm audit fix
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9073729Z 
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9074009Z To address all issues (including breaking changes), run:
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9074305Z   npm audit fix --force
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9074438Z 
+Test consumer and publish pact	Install dependencies	2026-10-30T12:39:49.9074727Z Run `npm audit` for details.
+Test consumer and publish pact	Run consumer contract tests	﻿2026-10-30T12:39:49.9642861Z ##[group]Run npm test
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:49.9643114Z ^[[36;1mnpm test^[[0m
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:49.9662820Z shell: /usr/bin/bash -e {0}
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:49.9663060Z ##[endgroup]
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.0470492Z 
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.0471248Z > pact-consumer@1.0.0 test
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.0471726Z > jest --runInBand
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.0471945Z 
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.7754360Z PASS test/transaction.pact.test.js
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.7755342Z   Transaction API contract
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.7775998Z     ✓ returns a list of transactions (51 ms)
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.7776358Z 
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.7805644Z Test Suites: 1 passed, 1 total
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.7806553Z Tests:       1 passed, 1 total
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.7825768Z Snapshots:   0 total
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.7826462Z Time:        0.572 s
+Test consumer and publish pact	Run consumer contract tests	2026-10-30T12:39:50.7829892Z Ran all test suites.
+Test consumer and publish pact	Publish pact to broker	﻿2026-10-30T12:39:50.9021502Z ##[group]Run npm run publish:pact
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9021788Z ^[[36;1mnpm run publish:pact^[[0m
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9039542Z shell: /usr/bin/bash -e {0}
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9039765Z env:
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9040205Z   PACT_BROKER_BASE_URL: ***
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9040455Z   PACT_BROKER_USERNAME: ***
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9040724Z   PACT_BROKER_PASSWORD: ***
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9041111Z   GIT_COMMIT: 2891e54c0a13d5db99fa542a32bc3d1b25b5a31c
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9041481Z   GIT_BRANCH: main
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9041732Z ##[endgroup]
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9824178Z 
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9825183Z > pact-consumer@1.0.0 publish:pact
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9826058Z > pact broker publish ./pacts --consumer-app-version=${GIT_COMMIT:-1.0.0} --branch=${GIT_BRANCH:-main} --broker-base-url=${PACT_BROKER_BASE_URL:-http://localhost:9292}
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:50.9826542Z 
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:51.6091495Z 
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:51.6093087Z 📨 Attempting to publish pact for consumer: TransactionConsumer against provider: PaymentsProvider
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:52.2203780Z ✅ Updated TransactionConsumer version 2891e54c0a13d5db99fa542a32bc3d1b25b5a31c with branch main
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:52.2204978Z Pact successfully republished for TransactionConsumer version 2891e54c0a13d5db99fa542a32bc3d1b25b5a31c and provider PaymentsProvider with no content changes.
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:52.2206383Z View the published pact at ***/pacts/provider/PaymentsProvider/consumer/TransactionConsumer/version/2891e54c0a13d5db99fa542a32bc3d1b25b5a31c
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:52.2207085Z Events detected: contract_published
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:52.2207328Z Next steps:
+Test consumer and publish pact	Publish pact to broker	2026-10-30T12:39:52.2207952Z * Configure separate PaymentsProvider pact verification build and webhook to trigger it when the pact content changes. See https://docs.pact.io/go/webhooks
+Test consumer and publish pact	Post Setup Node.js	﻿2026-10-30T12:39:52.2407434Z Post job cleanup.
+Test consumer and publish pact	Post Setup Node.js	2026-10-30T12:39:52.3434057Z (node:2317) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Test consumer and publish pact	Post Setup Node.js	2026-10-30T12:39:52.3435503Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Test consumer and publish pact	Post Setup Node.js	2026-10-30T12:39:52.3437815Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-7df9414cc009348ff730219b59139fe47eda83ce4088c3fc139a6ba522a831b7, not saving cache.
+Test consumer and publish pact	Post Checkout	﻿2026-10-30T12:39:52.3574342Z Post job cleanup.
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4291565Z [command]/usr/bin/git version
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4330911Z git version 2.56.0
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4364214Z Temporarily overriding HOME='/home/runner/work/_temp/e8f0ba6a-b1da-455b-bdd4-3440acae8ad2' before making global git config changes
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4366382Z Adding repository directory to the temporary git global config as a safe directory
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4369992Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/coursera-pact-module-2/coursera-pact-module-2
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4410144Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4446056Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4733754Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4765014Z http.https://github.com/.extraheader
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4783633Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.4828679Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.5066109Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test consumer and publish pact	Post Checkout	2026-10-30T12:39:52.5113009Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test consumer and publish pact	Complete job	﻿2026-10-30T12:39:52.5469280Z Cleaning up orphan processes
+Test consumer and publish pact	Complete job	2026-10-30T12:39:52.5722560Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

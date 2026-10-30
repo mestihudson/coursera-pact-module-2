@@ -1,0 +1,24 @@
+GitHub Actions evidence
+Repository: https://github.com/mestihudson/coursera-pact-module-2
+
+Consumer CI - Contract Tests and Publish
+Run: https://github.com/mestihudson/coursera-pact-module-2/actions/runs/41056629319
+Commit: 2891e54c0a13d5db99fa542a32bc3d1b25b5a31c
+Result: success
+Key output:
+- PASS test/transaction.pact.test.js
+- Published TransactionConsumer version 2891e54c0a13d5db99fa542a32bc3d1b25b5a31c on branch main
+
+Provider CI - Verify Pact and Deploy Gate
+Run: https://github.com/mestihudson/coursera-pact-module-2/actions/runs/41056713540
+Commit: 873cbae23d9cfd05bf10c6349a63c2c1c68e1abd
+Result: success
+Key output:
+- PASS test/transaction.verify.test.js
+- satisfies the TransactionConsumer pact
+- There are no missing dependencies
+- can-i-deploy --to-environment production: Computer says yes
+
+Logs:
+- evidence/06-github-actions-consumer.log
+- evidence/07-github-actions-provider.log
